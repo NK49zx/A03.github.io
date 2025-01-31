@@ -5,16 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+    </style>
 </head>
 <body>
     <header>
+        <div class="h-25 border flex justify-evenly bg-[#FFF9F4]">
+            <div class="flex items-center gap-2">
+                <img src="c1-assets/logo-header.png" alt="">
+                <div class="text-2xl">Browse<span class="text-[#FFDC26]">4</span>pets</div>
+            </div>
+            <div class="flex items-center">
+                <nav>
+                    <ul class="flex gap-8">
+                        <li>Find a pet</li>
+                        <li>Breeds</li>
+                        <li>Contact us</li>
+                    </ul>
+                </nav>
+    
+            </div>
+            <div class="flex items-center gap-4">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div>
+                    <button class="w-auto h-auto px-8 py-3 border border-[#FFDC26] rounded-xl">
+                        Login
+                    </button>
+                    <button class="w-auto h-auto px-8 py-3 rounded-xl bg-[#FFDC26]">
+                        Register
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mx-35 my-19 h-187 border bg-[url(c1-assets/cat-big.png)] bg-center">
+            <div class="flex flex-col gap-6">
+                <h1 class="text-6xl leading-none">
+                    Pamper Your Pet,<br>Because They Deserve<br>the Best
+                </h1>
+                <p class="leading-[2]">
+                    Discover a world of treats, toys, and essentials handpicked for<br>your furry friends. Shop now and make tails wag with joy!
+                </p>
+                <button class="w-40 h-auto px-8 py-3 rounded-xl bg-[#FFDC26]">
+                    Find a pet
+                </button>
+            </div>
+        </div>
+        <div class="mx-35 my-19">
+            <h1>Browse By Categories</h1>
+            <div class="my-12 flex gap-6">
+                <div class="w-50 h-63 bg-[#F9DF8A] flex flex-col items-center justify-center gap-6 rounded-xl">
+                    <div class="w-26 h-26 p-6 rounded-full bg-[#FFFFFF] flex justify-center">
+                        <img src="c1-assets/dog-cartoon.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h1>
+                            Dog
+                        </h1>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="w-50 h-63 bg-[#F9DF8A] flex flex-col items-center justify-center gap-6 rounded-xl">
+                    <div class="w-26 h-26 p-6 rounded-full bg-[#FFFFFF] flex justify-center">
+                        <img src="c1-assets/fish-cartoon.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h1>
+                            Fish
+                        </h1>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="w-50 h-63 bg-[#F9DF8A] flex flex-col items-center justify-center gap-6 rounded-xl">
+                    <div class="w-26 h-26 p-6 rounded-full bg-[#FFFFFF] flex justify-center">
+                        <img src="c1-assets/cat-cartoon.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h1>
+                            Cat
+                        </h1>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="w-50 h-63 bg-[#F9DF8A] flex flex-col items-center justify-center gap-6 rounded-xl">
+                    <div class="w-26 h-26 p-6 rounded-full bg-[#FFFFFF] flex justify-center">
+                        <img src="c1-assets/bird-cartoon.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h1>
+                            Birds
+                        </h1>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="w-50 h-63 bg-[#F9DF8A] flex flex-col items-center justify-center gap-6 rounded-xl">
+                    <div class="w-26 h-26 p-6 rounded-full bg-[#FFFFFF] flex justify-center">
+                        <img src="c1-assets/mouse-cartoon.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h1>
+                            Small pets
+                        </h1>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <div class="w-50 h-63 bg-[#F9DF8A] flex flex-col items-center justify-center gap-6 rounded-xl">
+                    <div class="w-26 h-26 p-6 rounded-full bg-[#FFFFFF] flex justify-center">
+                        <img src="c1-assets/rabbit-cartoon.png" alt="">
+                    </div>
+                    <div class="text-center">
+                        <h1>
+                            Rabbit
+                        </h1>
+                        <p>3 items</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </header>
     <main>
-
+        <section class="h-194 bg-[#FFF9F4] border">
+            <div>
+                
+            </div>
+        </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
